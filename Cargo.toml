@@ -1,0 +1,19 @@
+[package]
+name = "qs"
+version = "6.17.1"
+edition = "2021"
+description = "A querystring parser that supports nesting and arrays, with a depth limit"
+license = "BSD-3-Clause"
+repository = "https://github.com/ljharb/qs"
+keywords = ["querystring", "qs", "query", "url", "parse"]
+publish = false
+
+[lib]
+name = "qs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "qs"
+path = "src/main.rs"
+
+[dependencies]

@@ -1,18 +1,4 @@
-# gitignore
-npm-debug.log
-node_modules
-.DS_Store
-
 # build output
-dist/*
+/target
 
-# Only apps should have lockfiles
-yarn.lock
-package-lock.json
-npm-shrinkwrap.json
-
-# coverage output
-coverage/
-.nyc_output/
-
-.npmignore
+.DS_Store
